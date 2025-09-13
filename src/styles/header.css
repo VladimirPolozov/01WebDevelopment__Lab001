@@ -36,7 +36,7 @@
     padding: 0;
 }
 
-.active-page {
+.menu-pages__item_active {
     color: #8A53FF;
 }
 
