@@ -1,5 +1,5 @@
 .page-container {
-    padding: 0 8%;
+    padding: 0 12%;
     /* display: flex;
     flex-direction: column;
     gap: 8%; */
@@ -23,21 +23,20 @@
 }
 
 .section {
-    margin: 8% 0;
+    margin: 12% 0;
 }
 
 .section-columns {
     display: flex;
     flex-direction: row;
+    gap: 12%;
 }
 
 .section-columns__column {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    vertical-align: mid;
     width: 50%;
-    padding: 0 4%;
 }
 
 .cards-container {
@@ -63,7 +62,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+}   
 
 .card__title {
     display: flex;
