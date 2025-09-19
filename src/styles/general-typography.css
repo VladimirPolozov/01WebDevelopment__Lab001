@@ -4,11 +4,31 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: "Changa One", sans-serif;
+    color: #434343;
+    line-height: 1.25;
+    font-weight: 800;
+    margin-bottom: 0.2em;
+}
+
+h1 {
+    font-size: 73px;
+}
+
+h2 {
+    font-size: 39px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
 p, li, button, a {
     font-family: "Roboto", sans-serif;
 }
 
-p, li {
+p, li, a {
     color: #434343;
     line-height: 1.8;
 }
@@ -18,21 +38,18 @@ p, li {
     color: #434343;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: "Changa One", sans-serif;
-    color: #434343;
-    line-height: 1.25;
-    font-weight: 800;
+a {
+    color: #8A53FF;
 }
 
-h1 {
-    font-size: 73px;
-    margin-bottom: 0.25em;
+.hero-description {
+    font-size: 22px;
+    line-height: 1.5;
 }
 
-h2 {
-    font-size: 39px;
-    margin-bottom: 0.2em;
+.section-header {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-header strong {
@@ -47,4 +64,8 @@ h2 {
 
 .section-header_center {
     align-items: center;
+}
+
+.primary-color {
+    color: #8A53FF;
 }
