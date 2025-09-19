@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src\styles\normalize.css">
-    <link rel="stylesheet" href="src\styles\general.css">
+    <link rel="stylesheet" href="src\styles\general-typography.css">
+    <link rel="stylesheet" href="src\styles\general-blocks.css">
     <link rel="stylesheet" href="src\styles\header.css">
     <link rel="stylesheet" href="src\styles\footer.css">
     <link rel="stylesheet" href="src\styles\hero-section.css">
+    <link rel="stylesheet" href="src\styles\info-section.css">
     <title>Homepage</title>
 </head>
 <body>
@@ -34,17 +36,83 @@
             </div>
         </nav>
     </header>
-    <div class="hero-section">
-        <div class="hero-container">
+    <div class="hero-section section">
+        <div class="hero-container section-columns__column">
             <div class="hero-offer">
                 <h1 class="hero-header"><span class="hero-header_accent-text">Let’s talk</span> about your next trip!</h1>
                 <p class="hero-description">Share your favorite travel destination and we will feature it in our next blog!</p>
             </div>
-            <div class="hero-cta">
-                <button class="hero-cta hero-cta__share-button">Share your story</button>
-                <div class="hero-cta hero-cta__watch">
-                    <img src="src\assets\icons\watch-icon.svg" alt="">
+            <div class="cta">
+                <button class="cta__button">Share your story</button>
+                <div class="cta__watch">
+                    <img src="src\assets\icons\watch-icon.svg" alt="Человек прыгает в море со скалы">
                     <p>Watch highlights</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-container">
+        <div class="section">
+            <div class="section-columns">
+                <div class="section-columns__column">
+                    <div class="image-container">
+                        <img src="src\assets\images\info-section.jpg" alt="Человек стоит на горе и смотрит на вершину">
+                    </div>
+                </div>
+                <div class="section-columns__column">
+                    <h2 class="section-header">
+                        <strong>Featured Destination</strong>
+                        Our swiss adventure blog
+                    </h2>
+                    <p class="section-description">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help! </p>
+                    <div class="cta cta__watch">
+                        <img src="src\assets\icons\watch-icon-accent.svg" alt="">
+                        <p class="primary-color">Watch now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-header section-header_center">
+                <strong>Join our adventures</strong>
+                Discover the world with us
+            </h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card__img-container">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card__title">
+                        <h3></h3>
+                        <p class=""></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img-container">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card__title">
+                        <h3></h3>
+                        <p class=""></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img-container">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card__title">
+                        <h3></h3>
+                        <p class=""></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img-container">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card__title">
+                        <h3></h3>
+                        <p class=""></p>
+                    </div>
                 </div>
             </div>
         </div>
