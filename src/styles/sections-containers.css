@@ -76,3 +76,17 @@
     width: 100%;
     border-radius: 8px;
 }
+
+.fade-in-lines span {
+  opacity: 0;
+  transform: translateY(10px);
+  display: block;
+  animation: fadeInUp 1.25s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
