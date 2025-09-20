@@ -1,5 +1,5 @@
 .page-container {
-    padding: 0 12%;
+    padding: 0 12vw;
     /* display: flex;
     flex-direction: column;
     gap: 8%; */
@@ -7,7 +7,7 @@
 
 .hero-container {
     background: linear-gradient(90deg,rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0) 100%);
-    padding: 12%;
+    padding: 12vw;
     align-items: start;
 }
 
@@ -20,6 +20,8 @@
     height: 80vh;
     padding: 0;
     margin-top: 10vh;
+    margin-left: -12vw;
+    width: 100vw;
 }
 
 .section {
