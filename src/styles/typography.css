@@ -18,7 +18,7 @@ h3 {
     font-size: 24px;
 }
 
-p, li, button, a {
+p, li, button, a, form, input {
     font-family: "Roboto", sans-serif;
 }
 
@@ -54,4 +54,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 6%;
     margin-bottom: 0.1em;
+}
+
+.form-description {
+    color: #576074;
 }

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src\styles\normalize.css">
-    <link rel="stylesheet" href="src\styles\general-typography.css">
-    <link rel="stylesheet" href="src\styles\general-blocks.css">
+    <link rel="stylesheet" href="src\styles\typography.css">
+    <link rel="stylesheet" href="src\styles\blocks.css">
     <link rel="stylesheet" href="src\styles\sections-containers.css">
     <link rel="stylesheet" href="src\styles\header.css">
     <link rel="stylesheet" href="src\styles\footer.css">
@@ -37,7 +37,7 @@
         </nav>
     </header>
     <div class="page-container">    
-        <div class="hero-section">
+        <div class="section-with-background-img hero-section hero-section__img">
             <div class="hero-container section-columns__column">
                 <div class="hero-offer">
                     <h1 class="hero-header fade-in-lines"><span class="primary-color">Let’s talk</span> about your next trip!</h1>
@@ -116,8 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
-            <img src="src/assets/images/share-form-background.png" alt="" class="section-background">
+        <div class="section-with-background-img share-form-section share-form-section__img justify-content-center">
             <div class="section-columns justify-content-center">
                 <div class="section-columns__column">
                     <h2 class="section-header align-items-center">
@@ -129,19 +128,21 @@
                         <p class="form-description">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
                         <form action="src/scripts/share-form.js" method="post" autocomplete="on" class="form">
                             <input type="text" id="destination-name" name="destination-name" placeholder="Destination name" class="form__input" required>
-                            <select id="destination-country" name="destination-country" aria-placeholder="Country of Destination">
-                                <option value="russia">Россия</option>
-                                <option value="belarus">Беларусь</option>
-                                <option value="india">Индия</option>
+                            <select id="destination-country" name="destination-country" class="form__input form__input-select">
+                                <option disabled selected>Country of Destination</option>
+                                <option value="russia">Russia</option>
+                                <option value="belarus">Belarus</option>
+                                <option value="india">India</option>
                             </select>
                             <input type="text" id="your-name" name="your-name" placeholder="Your name" class="form__input" required>
-                            <select id="shooting-category" name="shooting-category" aria-placeholder="Shooting category">
+                            <select id="shooting-category" name="shooting-category" class="form__input form__input-select">
+                                <option disabled selected>Shooting category</option>
                                 <option value="category-1">category 1</option>
                                 <option value="category-2">category 1</option>
                                 <option value="category-3">category 1</option>
                             </select>
-                            <textarea id="comment" name="comment" placeholder="Describe what kind of photos you want to focus on"></textarea>
-                            <input type="submit" value="Submit" class="form__submit-button">
+                            <textarea id="comment" name="comment" placeholder="Describe what kind of photos you want to focus on" class="form__input"></textarea>
+                            <input type="submit" value="Submit" class="cta__button submit-button">
                         </form>
                     </div>
                 </div>
