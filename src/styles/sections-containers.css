@@ -24,6 +24,7 @@
 
 .section {
     margin: 12% 0;
+    position: relative;
 }
 
 .section-columns {
@@ -73,4 +74,24 @@
 .image-container img {
     width: 100%;
     border-radius: 8px;
+}
+
+.form-container {
+    z-index: 1000;
+    width: 100%;
+    margin: 4% 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-background {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100vw;
+    padding: 0;
+    
 }

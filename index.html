@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src\styles\sections-containers.css">
     <link rel="stylesheet" href="src\styles\header.css">
     <link rel="stylesheet" href="src\styles\footer.css">
+    <link rel="stylesheet" href="src\styles\modificators.css">
     <title>Homepage</title>
 </head>
 <body>
@@ -72,7 +73,7 @@
             </div>
         </div>
         <div class="section">
-            <h2 class="section-header section-header_center">
+            <h2 class="section-header align-items-center">
                 <strong>Join our adventures</strong>
                 Discover the world with us
             </h2>
@@ -111,6 +112,37 @@
                     <div class="card__title">
                         <h3>Patagonia</h3>
                         <a>Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <img src="src/assets/images/share-form-background.png" alt="" class="section-background">
+            <div class="section-columns justify-content-center">
+                <div class="section-columns__column">
+                    <h2 class="section-header align-items-center">
+                        <strong>Let’s build a community</strong>
+                        Join our next destination
+                    </h2>
+                    <div class="form-container">
+                        <h3 class="form-header">Share your travels</h3>
+                        <p class="form-description">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                        <form action="src/scripts/share-form.js" method="post" autocomplete="on" class="form">
+                            <input type="text" id="destination-name" name="destination-name" placeholder="Destination name" class="form__input" required>
+                            <select id="destination-country" name="destination-country" aria-placeholder="Country of Destination">
+                                <option value="russia">Россия</option>
+                                <option value="belarus">Беларусь</option>
+                                <option value="india">Индия</option>
+                            </select>
+                            <input type="text" id="your-name" name="your-name" placeholder="Your name" class="form__input" required>
+                            <select id="shooting-category" name="shooting-category" aria-placeholder="Shooting category">
+                                <option value="category-1">category 1</option>
+                                <option value="category-2">category 1</option>
+                                <option value="category-3">category 1</option>
+                            </select>
+                            <textarea id="comment" name="comment" placeholder="Describe what kind of photos you want to focus on"></textarea>
+                            <input type="submit" value="Submit" class="form__submit-button">
+                        </form>
                     </div>
                 </div>
             </div>
