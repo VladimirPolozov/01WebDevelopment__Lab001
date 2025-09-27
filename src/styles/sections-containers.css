@@ -35,7 +35,7 @@
 }
 
 .section {
-    margin: 12% 0;
+    margin: 10vw 0;
 }
 
 .section-columns {
@@ -112,4 +112,5 @@
 
 .share-form-section {
     padding: 6vw 0 2vw 0;
+    margin: -4vw 0 -4vw -12vw;
 }
