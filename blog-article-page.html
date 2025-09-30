@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src\styles\normalize.css">
+    <link rel="stylesheet" href="src\styles\typography.css">
+    <link rel="stylesheet" href="src\styles\blocks.css">
+    <link rel="stylesheet" href="src\styles\sections-containers.css">
+    <link rel="stylesheet" href="src\styles\header.css">
+    <link rel="stylesheet" href="src\styles\footer.css">
+    <link rel="stylesheet" href="src\styles\form.css">
+    <link rel="stylesheet" href="src\styles\cards.css">
+    <link rel="stylesheet" href="src\styles\modificators.css">
+    <title>Blog article page</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <img class="sub-logo-text" src="src\assets\logos\sub-logo-text.svg">
+            <img class="main-logo-text" src="src\assets\logos\logo-text.svg">
+        </div>
+        <nav class="menu">
+            <ul class="menu-pages">
+                <li class="menu-pages__item menu-pages__item_active">Home</li>
+                <li class="menu-pages__item">Story</li>
+                <li class="menu-pages__item">Gallery</li>
+                <li class="menu-pages__item">Contact us</li>
+            </ul>
+            <div class="vertical-divider"></div>
+            <div class="menu-actions">
+                <a class="menu-actions__action">
+                    <img src="src\assets\icons\search-icon.svg">
+                </a>
+                <a class="menu-actions__action">
+                    <img src="src\assets\icons\profile-icon.svg">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="story-page-container">
+        <div class="story-header">
+            <h1 class="section-header story-title">
+                <strong>popular destinations</strong>
+                Hello Switzerland!
+            </h1>
+            <div class="story-author">
+                <div class="story-author__avatar">
+                    <img src="src\assets\images\patagonia-card-image.jpg">
+                </div>
+                <div class="author-name">
+                    <p class="author-title"></p>
+                </div>
+            </div>
+        </div>
+        <div class="section-with-background-img share-form-section share-form-section__img justify-content-center">
+            <div class="section-columns justify-content-center">
+                <div class="section-columns__column">
+                    <h2 class="section-header align-items-center">
+                        <strong>Let’s build a community</strong>
+                        Join our next destination
+                    </h2>
+                    <div class="form-container">
+                        <h3 class="form-header">Share your travels</h3>
+                        <p class="form-description">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                        <form action="src/scripts/share-form.js" method="post" autocomplete="on" class="form">
+                            <input type="text" id="destination-name" name="destination-name" placeholder="Destination name" class="form__input" required>
+                            <select id="destination-country" name="destination-country" class="form__input form__input-select">
+                                <option disabled selected>Country of Destination</option>
+                                <option value="russia">Russia</option>
+                                <option value="belarus">Belarus</option>
+                                <option value="india">India</option>
+                            </select>
+                            <input type="text" id="your-name" name="your-name" placeholder="Your name" class="form__input" required>
+                            <select id="shooting-category" name="shooting-category" class="form__input form__input-select">
+                                <option disabled selected>Shooting category</option>
+                                <option value="category-1">category 1</option>
+                                <option value="category-2">category 1</option>
+                                <option value="category-3">category 1</option>
+                            </select>
+                            <textarea id="comment" name="comment" placeholder="Describe what kind of photos you want to focus on" class="form__input"></textarea>
+                            <input type="submit" value="Submit" class="cta__button submit-button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <p>© 2022, Talking Travel. All Rights Reserved.</p>
+        <ul class="menu-pages">
+            <li class="menu-pages__item">Home</li>
+            <li class="menu-pages__item">Story</li>
+            <li class="menu-pages__item">Gallery</li>
+            <li class="menu-pages__item">Contact us</li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+.share-form-section__img {
+    background-image: url("../assets/images/share-form-background.png");
+}
+
+.form-container {
+    margin: 4vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.share-form-section {
+    padding: 6vw 0 2vw 0;
+}
