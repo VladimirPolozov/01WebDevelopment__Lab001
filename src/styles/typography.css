@@ -28,8 +28,15 @@ p, li, a {
 }
 
 p, li {
-    font-size: 18px;
     color: #434343;
+}
+
+li {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
 }
 
 a {
@@ -39,6 +46,10 @@ a {
 .hero-description {
     font-size: 22px;
     line-height: 1.5;
+}
+
+.section > .section-header {
+    margin-bottom: 2em;
 }
 
 .section-header {
@@ -58,4 +69,8 @@ a {
 
 .form-description {
     color: #576074;
+}
+
+.lead-text {
+    font-size: 18px;
 }

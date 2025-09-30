@@ -9,3 +9,18 @@
 .primary-color {
     color: #8A53FF;
 }
+
+.fade-in-lines span {
+    opacity: 0;
+    transform: translateY(10px);
+    display: block;
+    animation: fadeInUp 1.25s ease forwards;
+    z-index: 0;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
