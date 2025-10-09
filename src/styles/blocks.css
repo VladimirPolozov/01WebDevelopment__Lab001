@@ -51,3 +51,22 @@
     border-radius: 4px;
     margin: 0.5em 0;
 }
+
+.big-quote-container {
+    display: flex;
+    gap: 1em;
+}
+
+.big-quote-container > .image-container {
+    align-items: start;
+}
+
+img.big-quote-icon {
+    object-fit: contain;
+    height: 48px;
+}
+
+.common-quote-container {
+    background-color: #FAFAFA;
+    padding: 20px 30px;
+}

@@ -1,0 +1,35 @@
+
+
+.story__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.story__author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.story__author-avatar img {
+    border-radius: 100%;
+    width: 36px;
+    margin-right: 6px;
+}
+
+.story__author-name-container p {
+    line-height: 1.25;
+}
+
+.author-title {
+    color: #A2A7B1;
+    font-size: 14px;
+}
+
+.story__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
