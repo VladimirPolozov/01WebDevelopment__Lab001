@@ -11,6 +11,10 @@ h1 {
 }
 
 h2 {
+    font-size: 32px;
+}
+
+h2 .section-header {
     font-size: 39px;
 }
 
