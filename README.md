@@ -9,5 +9,3 @@ https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talk
 
 Декомпозиция задачи:
 https://docs.google.com/spreadsheets/d/1-5eTj1qCeEMZ39kmw0-COG--IwGHcQxUvvVS3eJZYhM/edit?usp=sharing
-
-Отчёт toggl:
