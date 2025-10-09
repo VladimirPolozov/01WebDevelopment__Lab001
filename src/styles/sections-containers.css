@@ -11,7 +11,13 @@
 
 .story-page-container {
     padding: 4vw 18vw 0 18vw;
-    row-gap: 2vw;
+    row-gap: 4vw;
+}
+
+.story__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
 
 .hero-section__img {

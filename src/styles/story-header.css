@@ -27,9 +27,3 @@
     color: #A2A7B1;
     font-size: 14px;
 }
-
-.story__content {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
