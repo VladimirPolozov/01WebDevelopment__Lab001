@@ -2,7 +2,7 @@
     padding: 0 12vw;
     display: flex;
     flex-direction: column;
-    gap: 8vw;
+    row-gap: 8vw;
 }
 
 .story-page-container, .page-container {
@@ -10,7 +10,7 @@
 }
 
 .story-page-container {
-    padding: 0 18vw;
+    padding: 4vw 18vw 0 18vw;
 }
 
 .hero-section__img {
@@ -63,4 +63,32 @@
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
+}
+
+.story-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.story-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.story-author__avatar img {
+    border-radius: 100%;
+    width: 36px;
+    margin-right: 6px;
+}
+
+.author-name-container p {
+    line-height: 1.25;
+}
+
+.author-title {
+    color: #A2A7B1;
+    font-size: 14px;
 }

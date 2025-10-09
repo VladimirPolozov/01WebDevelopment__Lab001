@@ -58,7 +58,7 @@ a {
 }
 
 .story-title {
-
+    font-size: 50px;
 }
 
 .section-header strong {
@@ -67,7 +67,6 @@ a {
     font-weight: 600;
     color: #8A53FF;
     text-transform: uppercase;
-    letter-spacing: 6%;
     margin-bottom: 0.1em;
 }
 
