@@ -2,15 +2,16 @@
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
-    row-gap: 8vw;
 }
 
 .page-container {
     padding: 0 12vw;
+    row-gap: 8vw;
 }
 
 .story-page-container {
     padding: 4vw 18vw 0 18vw;
+    row-gap: 2vw;
 }
 
 .hero-section__img {
@@ -108,4 +109,18 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+}
+
+.big-quote-container {
+    display: flex;
+    gap: 1em;
+}
+
+.big-quote-container > .image-container {
+    align-items: start;
+}
+
+img.big-quote-icon {
+    object-fit: contain;
+    height: 48px;
 }

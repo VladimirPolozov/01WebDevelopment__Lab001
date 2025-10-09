@@ -1,9 +1,16 @@
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .big-quote {
     font-family: "Changa One", sans-serif;
     color: #434343;
     line-height: 1.25;
     font-weight: 800;
     margin-bottom: 0.2em;
+}
+
+.big-quote {
+    font-style: Italic;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 0.5em;
 }
 
 h1 {
